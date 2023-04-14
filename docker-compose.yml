@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  sgcurriculum2gcal_python:
+    container_name: sgcurriculum2gcal_python
+    build: .docker/python/
+    volumes:
+      - ./src:/usr/src/python
