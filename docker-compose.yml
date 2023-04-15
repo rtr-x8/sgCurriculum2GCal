@@ -6,3 +6,5 @@ services:
     build: .docker/python/
     volumes:
       - ./src:/usr/src/python
+    environment:
+      TZ: Asia/Tokyo

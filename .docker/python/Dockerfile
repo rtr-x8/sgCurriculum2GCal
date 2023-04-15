@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.11.3-buster
 
 WORKDIR /usr/src/python
 
